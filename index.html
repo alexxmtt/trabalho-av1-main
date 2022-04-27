@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>FuturoWork</title>
+
+    <style>
+        .corpo {
+            background-color:rrgb(255, 255, 255);
+
+        }
+        .first-logo {
+            width: 100%;
+            height: 480px;
+            text-align: center;
+            background-color: rgb(205, 223, 255);
+            color:cornflowerblue;
+            background-image: url(imagens/conexao.webp);
+            
+           
+
+            
+        }
+        .titulo1 {
+            padding-top: 2%;
+
+        }
+        .titulo2 {
+            padding-top: 1%;
+            color:white;
+        }
+        .vagas {
+            padding-top: 2%;
+
+        }
+        
+        .menu{
+            list-style:none;
+            padding-top:15%;
+            padding-left: 5%;
+
+        }
+        .menu li{
+            position:relative;
+            float:left;
+      
+        }
+        .menu li a {
+            color:rgb(255, 255, 255);
+            text-decoration:none; 
+            padding:10px 80px; 
+            display:block;
+            
+            
+        }
+
+        .menu li a:hover{
+            color:rgb(0, 0, 0);
+            background-color:cornflowerblue;
+           0
+            text-shadow:0px 0px 5px #fff;
+        }
+        .menu li  ul{
+            position:absolute;
+            top:25px;
+            left:0;
+            background-color:#fff;
+            display:none;   
+        }
+
+        /* Depoimentos */
+
+        .first-body {
+            width: 100%;
+            height: 480px;
+            text-align: left;
+            border-bottom: 1px cornflowerblue solid;
+            border-top: 1px cornflowerblue solid;
+
+        }
+        .depo {
+            text-align: center;
+            color: cornflowerblue;
+            padding-top: 1%;
+        }
+        .depoimentos-img {
+            background-color: rgb(234, 236, 235);
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            overflow: hidden;
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: left;
+            border: 1px cornflowerblue solid;
+
+        }
+        .depotexto {
+            color: cornflowerblue;
+            text-align: center;
+
+        }
+        .depotextop {
+            color: black;
+            text-align: center;
+
+        }
+
+        /* Sobre a empresa */
+
+        .second-body {
+            width: 100%;
+            height: 480px;
+            border-bottom: 1px cornflowerblue solid;
+            background-image: url(imagens/conexao.webp);
+    
+            
+          
+        }
+        .sobre-empresa {
+            width: 50%;
+            height: 480px;
+            color:rgb(255, 255, 255);
+            text-align: left;
+            padding-top: 7%;
+            padding-left: 10%;
+
+        }
+        #sobre-empresa {
+            color:cornflowerblue;
+        }
+        .sobre-empresa-img {
+            width: 50%;
+            padding: 3%;
+        }
+
+        /* Curriculum */
+
+        .first-empre {
+            width: 100%;
+            height: 480px;
+            
+
+        }
+        .video-empresa {
+            width: 50%;
+            padding-top: 10%;
+            padding-left: 10%;
+
+        }
+        .video-empresa-inf {
+            width: 50%;
+            text-align: left;
+            padding-top: 13%;
+            padding-left: 6%;
+            color:rgb(79, 127, 216);
+
+        }
+
+    /* CONNECT WORLD */
+
+        .first-inf {
+            width: 100%;
+            height: 480px;
+            background-color: rgb(205, 223, 255);
+            text-align: center;
+            color:cornflowerblue;
+            background-image: url(imagens/conexao.webp);
+
+        }
+        .pessoas1 {
+            padding-top: 7%;
+            color:cornflowerblue;
+        }
+
+        .pessoas2 {
+            padding-bottom: 1%;
+            color:white;
+        }
+        .pessoas-img {
+
+            background-color: rgb(234, 236, 235);
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        /* Cursos */
+
+        .second-inf {
+            width: 100%;
+            height: 480px;
+            text-align: center;
+            color:cornflowerblue;
+            border-bottom: 1px cornflowerblue solid;
+        }
+        .curso1 {
+            padding-top: 10%;
+
+        }
+        .curso2 {
+            padding-top: 2%;
+
+        }
+        .cadastro {
+            padding-top: 2%;
+        }
+
+        /* Rodapé */
+
+        .first-rodape {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(205, 223, 255);
+
+        }
+        .rodape {
+            text-align: right;
+            color:cornflowerblue;
+            padding-top: 1%;
+
+        }
+      
+    </style>
+
+</head>
+<body class="corpo">
+    <div class="container first-logo">
+    <div class="row">
+        <!--<img src="imagens/futureofwork.jpg" class="img-fluid" alt="...">-->
+        <div class="col-md-12 titulo1"> <H1>AS MELHORES VAGAS DE EMPREGO ESTÃO NO FUTUROWORK</H1> </div>
+        <div class="col-md-12 titulo2"> <H4>CADASTRE SEU E-MAIL PARA RECEBER NOVAS VAGAS DE EMPREGO</H4> </div>
+        <div class="col-md-12 vagas">
+        <form>
+            <input type="text"   id="nome" name="Nome" placeholder="NOME">
+            <input type="email"  id="email" name="E-mail" placeholder="E-MAIL">
+            <button type="submit" id="enviar"> CADASTRAR</button>
+        </form>
+        </div>
+        <div class="col-md-12 stilo">
+            <nav>
+                <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">O que fazemos?</a>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contato</a></li>
+              </ul>
+              </nav>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container first-body">
+        <div class="row g-2">
+            <div class="col-md-12 depo" > <h3>DEPOIMENTOS</h3> </div>
+            <div class="col-6">
+              <div class="p-3 border bg-light">  <img src="imagens/pessoa5.png " class="depoimentos-img"><H6 class="depotexto">Jackson Souza</H6><p class="depotextop">  O site é muito bom. São divulgadas muitas oportunidades de emprego diariamente. Enfim: adorei o site e graças a ele consegui emprego! </p></div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 border bg-light">   <img src="imagens/pessoa6.png " class="depoimentos-img"><H6 class="depotexto">Raphaella Cavalcante</H6><p class="depotextop">  Muito bom! Eu nem sei como agradecer... Recebi e recebo ligações até agora de ofertas de trabalho. Muito Obrigada!</p></div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 border bg-light">   <img src="imagens/pessoa7.png " class="depoimentos-img"><H6 class="depotexto">Alex Matos </H6><p class="depotextop"> O site é muito bom. Aconselho a todos a se cadastrarem.Obrigado pela oportunidade.  </p></div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 border bg-light">   <img src="imagens/pessoa8.png " class="depoimentos-img"><H6 class="depotexto">Renata Ramos</H6><p class="depotextop"> O site é muito bom. Caso eu fique desempregada de novo irei reativar minha assinatura.</p></div>
+            </div>
+            <div class="col-6">
+                <div class="p-3 border bg-light"> <img src="imagens/pessoa9.png " class="depoimentos-img"><H6 class="depotexto">Thomás Teixeira</H6><p class="depotextop"> Site me ajudou muito! Em apenas 10 dias consegui um emprego. Recomendaria para todos aqueles que estão desempregados.</p></div>
+              </div>
+              <div class="col-6">
+                <div class="p-3 border bg-light"> <img src="imagens/pessoa10.png " class="depoimentos-img"><H6 class="depotexto"> Tays Abreu</H6><p class="depotextop"> Agradeço muito o FuturoWork . Entrei na empresa 2012 e estou até hoje Obrigado pela oportunidade.</p></div>
+              </div>
+          </div>
+    </div>
+
+      <!--Sobre a empresa-->
+
+    <div class="container second-body">
+        <div class="row">
+            <div class="col-md-2 sobre-empresa"><h1 id="sobre-empresa"> Sobre o FuturoWork</h1>
+                                    <h5> O FuturoWork é o site de empregos número #1 do mundo, 
+                                        com mais de 250 milhões de visitantes únicos por mês. O FuturoWork trabalha para colocar os candidatos em primeiro lugar, dando a eles acesso livre à busca de vagas, 
+                                        à publicação de currículos e à pesquisa de empresas. Todos os dias, nós conectamos milhões de pessoas a novas oportunidades.
+                                    </h5>
+            </div>
+            <div class="col-md-2 sobre-empresa-img"> <img src="imagens/sobre-a-empresa.png"></div>
+        </div>
+    </div>
+
+    <!-- CURRICULUM -->
+    <div class="container first-empre">
+        <div class="row">
+            <div class="col-md-2 video-empresa"><iframe width="460" height="245" src="https://www.youtube.com/embed/Lhb2nVX62eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    
+            </div>
+            <div class="col-md-2 video-empresa-inf">  <h3>CURRÍCULO 2022</h3>
+                <ul class="curriculum">               
+                    <li>Básico</li>
+                    <li>Modelo</li>
+                    <li>Simplicidade</li>
+                </ul>
+                <p>Aprenda todas essas dicas nesse único vídeo.</p> 
+            </div>
+        </div>
+    </div>
+
+     <!---->
+
+    <div class="container first-inf">
+        <div class="row">
+            <div class="col-md-12 pessoas1">
+                <h2> CONNECT WORLD</h2>
+            </div>
+            <div class="col-md-12 pessoas2">
+                    <h5>Conecte-se a pessoas que podem ajudar, conecte-se com seus colegas de trabalho, de classe e amigos no FuturoWork.</h5>
+            </div>
+            <div class="pessoas-img"> <img src="imagens/pessoa1.png"></div>
+            <div class="pessoas-img"> <img src="imagens/pessoa2.png"></div>
+            <div class="pessoas-img"> <img src="imagens/pessoa3.png"></div>
+            <div class="pessoas-img"> <img src="imagens/pessoa4.png"></div>
+
+        </div>
+    </div>
+
+
+    <!-- CURSOS-->
+
+
+    <div class="container second-inf">
+        <div class="row">
+            <div class="col-md-12 curso1">
+                <h2>CADASTRE SEU E-MAIL PARA RECEBER CURSOS GRÁTIS</h2>
+            </div>
+            <div class="col-md-12 curso2">
+                    <h5> Não perca essa oportunidade! Vários cursos gratuitos em várias plataformas de ensino do Brasil! </h5>
+            </div>
+            <div class="col-md-12 cadastro">
+                <form>
+                    <input type="text"   id="nome" name="Nome" placeholder="Nome">
+                    <input type="email"  id="email" name="E-mail" placeholder="E-mail">
+                    <button type="submit" id="enviar"> CADASTRAR</button>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+
+    <div class="container first-rodape">
+        <div class="row">
+            <div class="rodape"><p> &copy; Todos os Direitos Reservados - FuturoWork</p></div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
